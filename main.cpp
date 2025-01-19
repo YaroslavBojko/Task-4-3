@@ -12,8 +12,12 @@ int main()
 	int remainder = x % 2;
 	cout << "-----Проверяем-----" << endl;
 
-	if (true)
+	if (remainder == 0)
 	{
-
+		cout << "Число " << x << " - чётное." << endl;
+	}
+	else
+	{
+		cout << "Число " << x << " - не чётное." << endl;
 	}
 }
